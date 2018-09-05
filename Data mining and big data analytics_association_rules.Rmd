@@ -1,0 +1,5 @@
+library(arules)
+library(arulesViz)
+data("IncomeESL")
+IncomeESL<-IncomeESL[complete.cases(IncomeESL),]
+dim(IncomeESL)
